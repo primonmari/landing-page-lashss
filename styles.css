@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(17, 14, 14);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5%;
+  background-color: rgb(17, 14, 14);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* Links do menu */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d49ba1; /* antes estava #555 que é cinza fraco */
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(214, 214, 214);
+}
+
+/* Botão de contato */
+.contact-button {
+  background: #b4a193;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover {
+  background: #c2858a;
+}
+
+@keyframes fadeZoomUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+/* Seção sobre */
+.about {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background-color: rgb(17, 14, 14);
+  color: #f2f2f2;
+}
+
+/* Aplicando a animação nos elementos */
+.about h1,
+.about p {
+  opacity: 0;
+  animation: fadeZoomUp 1s ease forwards;
+}
+
+.about h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #d49ba1;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.about p {
+  font-size: 18px;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/*Seção profissionais*/
+
+.professionals {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fefefe; /* ajuste conforme sua paleta de cores */
+}
+
+.professionals h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.professionals p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Container para os perfis, dispostos horizontalmente */
+.profile-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-stack img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /*Mantém a proporção original e preenche*/
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-left: -15px;
+}
+
+/* Garante que a primeira bolinha não tenha margem negativa */
+.profile-stack img:first-child {
+  margin-left: 0;
+}
+
+/*Eventos*/
+
+.events {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f8f4f0;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba (0, 0, 0, 0.1);
+  width: 240px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card h3 {
+  font-size: 1.05rem;
+  color: #b17883;
+  margin: 15px 10px 5px;
+}
+
+.event-details {
+  padding: 0 10px 15px;
+}
+
+.event-details p {
+  text-align: left;
+  margin: 4px 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.event-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #b17883;
+  text-decoration: underline;
+}
+
+/*todos os eventos*/
+.ver-todos-wrapper {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.ver-todos-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #b17883;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.ver-todos-button:hover {
+  background-color: #995d6c;
+}
+
+/*Seção Encontre uma lash*/
+
+.find-lash {
+  background-color: #fff5f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.find-lash h2 {
+  font-size: 2rem;
+  color: #5c2318;
+  margin-bottom: 10px;
+}
+
+.find-lash p {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-box button {
+  background-color: #foba2e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lash-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lash-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 170px;
+  text-align: center;
+}
+
+.lash-card img {
+  width: 100%;
+  height: 220px; /* ou outro valor proporcional */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.lash-card h3 {
+  color: #5c2318;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.lash-card p {
+  font-size: 0.9rem;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #foba2e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*footer*/
+
+.site-footer {
+  background-color: #5c2318;
+  color: white;
+  padding: 40px 20px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+footer .copyright {
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+#sobre,
+#profissionais,
+#eventos,
+#encontre {
+  scroll-margin-top: 120px; /* ajuste conforme a altura da sua navbar */
+}
