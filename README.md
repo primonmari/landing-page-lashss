@@ -14,7 +14,7 @@ Tudo isso em um ambiente feito com muito cuidado — desde o layout até o logo,
 ## 💎 Veja o protótipo
 
 Acesse o projeto online pelo GitHub Pages:  
-👁️ [lashessbrasil](https://primonmari.github.io/landing-page-lashss/)
+👁️✨ [lashessbrasil](https://primonmari.github.io/landing-page-lashss/)
 
 ## 💎 Funcionalidades
 
