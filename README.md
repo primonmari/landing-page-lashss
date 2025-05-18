@@ -1,4 +1,4 @@
-![Projeto Autoral](https://img.shields.io/badge/Projeto-Autoral-BF328B?style=flat&logoColor=white)
+![Projeto Pessoal](https://img.shields.io/badge/Projeto-Autoral-BF328B?style=flat&logoColor=white)
 
 # 💎 Lashes Brasil
 
