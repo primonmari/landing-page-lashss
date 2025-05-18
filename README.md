@@ -1,12 +1,12 @@
 ![Projeto Pessoal](https://img.shields.io/badge/Projeto-Pessoal-C2858A?style=flat&logoColor=white)
 
-# 💎 Lashes Brasil
+# 💎 Lashess Brasil
 
 Todas as lash do Brasil em um só lugar!
 
 ## 💎 Sobre o projeto
 
-**Lashes Brasil** é uma plataforma pensada para unir lash designers de todo o país.  
+**Lashess Brasil** é uma plataforma pensada para unir lash designers de todo o país.  
 Aqui, profissionais podem se conectar, divulgar seus trabalhos, participar de eventos e serem encontradas por novas clientes.
 
 Tudo isso em um ambiente feito com muito cuidado — desde o layout até o logo, criados por mim com carinho e propósito. ♥
@@ -14,7 +14,7 @@ Tudo isso em um ambiente feito com muito cuidado — desde o layout até o logo,
 ## 💎 Veja o protótipo
 
 Acesse o projeto online pelo GitHub Pages:  
-👉 [lashesbrasil](https://seuusuario.github.io/nome-do-repositorio)
+👉 [lashessbrasil](https://primonmari.github.io/landing-page-lashss/)
 
 ## 💎 Funcionalidades
 
